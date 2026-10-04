@@ -1,0 +1,7 @@
+openai>=1.0.0                    # OpenAI-protocol client (talks to Ollama and Groq)
+python-dotenv>=1.0.0             # loads the .env file
+truststore>=0.9.0                # uses the Windows certificate store for HTTPS
+requests>=2.31.0                 # downloads web pages
+beautifulsoup4>=4.12.0           # extracts readable text from HTML
+lingua-language-detector>=2.0.0  # offline language detection
+openpyxl>=3.1.0                  # writes the Excel report

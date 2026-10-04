@@ -1,0 +1,5 @@
+# The only three libraries this minimal project needs.
+openai>=1.0.0          # the OpenAI-protocol client (talks to Ollama AND Groq)
+python-dotenv>=1.0.0   # loads your .env file
+requests>=2.31.0       # downloads web pages (used by the FetcherAgent)
+beautifulsoup4>=4.12.0 # strips HTML to clean text (used by the FetcherAgent)
